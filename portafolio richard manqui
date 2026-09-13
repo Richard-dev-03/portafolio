@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Richard Fabián Manqui | Software Developer</title>
+  
+  <!-- Font Awesome para íconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  
+  <!-- Google Fonts (opcional, mejora la tipografía) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="portafolio.css">
+</head>
+<body>
+
+  <!-- ===== NAVEGACIÓN ===== -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">RM<span>.dev</span></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">Sobre Mí</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#projects">Proyectos</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>Richard Fabián Manqui</h1>
+        <h2>Desarrollador de Software | Backend & Análisis de Datos</h2>
+        <p>Estudiante avanzado apasionado por construir soluciones robustas con Java, bases de datos SQL y optimización mediante IA.</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">Ver Proyectos</a>
+          <a href="docs/cv-richard-manqui.pdf" download class="btn btn-secondary">Descargar CV</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="assets/img/perfil.jpg" alt="Foto de Richard Fabián Manqui" onerror="this.src='https://via.placeholder.com/280x280/1a2a3a/ffffff?text=Richard+Manqui'">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SOBRE MÍ ===== -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">Sobre Mí</h2>
+      <div class="about-grid">
+        <div class="about-card">
+          <h3>🎓 Formación</h3>
+          <p>Estudiante avanzado de Desarrollo de Software en su último año de carrera. Sólidas bases teóricas y prácticas.</p>
+        </div>
+        <div class="about-card">
+          <h3>⚙️ Backend & Data</h3>
+          <p>Enfocado en POO, Clean Code y arquitectura de bases de datos relacionales (MySQL, PostgreSQL) con JDBC.</p>
+        </div>
+        <div class="about-card">
+          <h3>🤖 Productividad con IA</h3>
+          <p>Integración de herramientas como GitHub Copilot, ChatGPT y DeepSeek en el ciclo de desarrollo para escribir código más limpio y eficiente.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HABILIDADES ===== -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2 class="section-title">Stack Tecnológico</h2>
+      <div class="skills-wrapper">
+        <div class="skill-category">
+          <h3>Desarrollo Backend & DB</h3>
+          <span class="tag">Java</span>
+          <span class="tag">JDBC</span>
+          <span class="tag">SQL</span>
+          <span class="tag">MySQL</span>
+          <span class="tag">PostgreSQL</span>
+        </div>
+        <div class="skill-category">
+          <h3>Frontend</h3>
+          <span class="tag">HTML5</span>
+          <span class="tag">CSS3</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">LocalStorage</span>
+        </div>
+        <div class="skill-category">
+          <h3>Herramientas & Metodologías</h3>
+          <span class="tag">Git / GitHub</span>
+          <span class="tag">POO</span>
+          <span class="tag">SOLID</span>
+          <span class="tag">Scrum</span>
+          <span class="tag">Copilot / DeepSeek</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROYECTOS ===== -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2 class="section-title">Proyectos Destacados</h2>
+      <div class="projects-grid">
+        
+        <!-- Proyecto 1 -->
+        <article class="project-card">
+          <img src="assets/img/proyectos/ecommerce.jpg" alt="E-commerce Marketplace" onerror="this.src='https://via.placeholder.com/400x220/1a2a3a/ffffff?text=E-commerce+Marketplace'">
+          <div class="project-body">
+            <h3>E-commerce Marketplace</h3>
+            <p class="project-date">2026 - Actualidad</p>
+            <p>Plataforma e-commerce orientada a la persistencia eficiente de datos con JDBC y MySQL, con interfaz modular.</p>
+            <div class="project-tags">
+              <span>Java</span><span>JDBC</span><span>MySQL</span><span>HTML/CSS</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Proyecto 2 -->
+        <article class="project-card">
+          <img src="assets/img/proyectos/gym.jpg" alt="Gymnasium Web" onerror="this.src='https://via.placeholder.com/400x220/1a2a3a/ffffff?text=Gymnasium+Web'">
+          <div class="project-body">
+            <h3>Gymnasium Web</h3>
+            <p class="project-date">2025</p>
+            <p>Aplicación web interactiva para gestión de clientes, rutinas y horarios de gimnasio con persistencia local.</p>
+            <div class="project-tags">
+              <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>LocalStorage</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Proyecto 3 -->
+        <article class="project-card">
+          <img src="assets/img/proyectos/dashboard.jpg" alt="Dashboard de Análisis de Datos" onerror="this.src='https://via.placeholder.com/400x220/1a2a3a/ffffff?text=Dashboard+Analisis+Datos'">
+          <div class="project-body">
+            <h3>Dashboard de Análisis de Datos</h3>
+            <p class="project-date">Planificado</p>
+            <p>Proyecto orientado a la extracción de insights mediante consultas SQL avanzadas y procesamiento de datos.</p>
+            <div class="project-tags">
+              <span>SQL</span><span>Python</span><span>Google Sheets</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACTO - ESTILO FULL BANNER ===== -->
+<section id="contact" class="contact-banner">
+  <div class="container">
+    <div class="contact-banner-content">
+      <h2 class="section-title">¿Empezamos?</h2>
+      <p class="contact-banner-text">
+        Estoy buscando mi primera oportunidad en IT.<br>
+        Si creés que puedo aportar a tu equipo, <span class="highlight">escribime</span>.
+      </p>
+
+      <form id="contact-form" class="contact-form-banner">
+        <div class="form-row">
+          <div class="form-group half">
+            <input type="text" id="name" required placeholder="Tu nombre">
+          </div>
+          <div class="form-group half">
+            <input type="email" id="email" required placeholder="Tu email">
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea id="message" rows="4" required placeholder="Contame sobre el proyecto u oportunidad..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg">Enviar mensaje ✨</button>
+        <div id="form-status" class="form-status"></div>
+      </form>
+
+      <div class="contact-banner-social">
+        <p>O encontráme en:</p>
+        <div class="social-icons">
+          <a href="https://github.com/Richard-dev-03" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/richard-fabi%C3%A1n-manqui-5a64b0211/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://wa.me/543512297309" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="mailto:manquirichard1@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- ===== FOOTER===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p class="footer-copy">&copy; 2026 Richard Fabián Manqui — Desarrollador de Software</p>
+      
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
